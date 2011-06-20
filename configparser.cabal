@@ -1,0 +1,23 @@
+Name:		configparser
+Version:	0.0
+Synopsis:	Common Parser for Configuration
+Description: 	Common Parser for Configuration
+License: 	BSD3
+License-file:	LICENSE
+Author:		Ian-Woo Kim
+Maintainer: 	Ian-Woo Kim <ianwookim@gmail.com>
+Build-Type: 	Simple
+Cabal-Version:  >= 1.2
+
+Library
+  hs-source-dirs: src 
+  ghc-options: 	-Wall -O2 -threaded -funbox-strict-fields -fno-warn-unused-do-bind
+  ghc-prof-options: -caf-all -auto-all
+  Build-Depends: base>4, mtl>2, directory, filepath>1, 
+                 HStringTemplate, HStringTemplateHelpersIW, parsec
+  Exposed-Modules: 
+                 HEP.Config.Parse
+
+
+ 
+		 
