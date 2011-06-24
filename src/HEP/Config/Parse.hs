@@ -1,12 +1,11 @@
 module HEP.Config.Parse where
 
--- import Control.Applicative 
-
 import Control.Monad.Identity
-
 import Text.Parsec
 
--- import Type
+yesNo :: String -> Bool 
+yesNo "Yes" = True
+yesNo "No"  = False
 
 oneFieldInput :: String -> ParsecT String () Identity String 
 oneFieldInput fieldname = do 
