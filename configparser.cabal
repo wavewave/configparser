@@ -1,5 +1,5 @@
 Name:		configparser
-Version:	0.0.1.0
+Version:	0.0.2.0
 Synopsis:	Common Parser for Configuration
 Description: 	Common Parser for Configuration
 License: 	BSD3
@@ -16,7 +16,7 @@ Library
   Build-Depends: base>4, mtl>2, directory, filepath>1, 
                  HStringTemplate, HStringTemplateHelpersIW, parsec
   Exposed-Modules: 
-                 HEP.Config.Parse
+                 HEP.Parser.Config
 
 
  

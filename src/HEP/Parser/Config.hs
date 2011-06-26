@@ -1,4 +1,4 @@
-module HEP.Config.Parse where
+module HEP.Parser.Config where
 
 import Control.Monad.Identity
 import Text.Parsec
